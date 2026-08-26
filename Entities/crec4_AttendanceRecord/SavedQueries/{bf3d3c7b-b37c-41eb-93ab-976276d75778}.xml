@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{bf3d3c7b-b37c-41eb-93ab-976276d75778}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="crec4_attendancerecord1" select="1" icon="1" preview="1">
+        <row name="result" id="crec4_attendancerecordid">
+          <cell name="crec4_attendancerecord1" width="300" />
+          <cell name="crec4_childid" width="150" />
+          <cell name="crec4_familyid" width="150" />
+          <cell name="crec4_checkintime" width="150" />
+          <cell name="crec4_checkouttime" width="150" />
+          <cell name="crec4_checkinmethod" width="150" />
+          <cell name="crec4_checkoutmethod" width="150" />
+          <cell name="crec4_checkedinbystaff" width="150" />
+          <cell name="crec4_checkedoutbystaff" width="150" />
+          <cell name="crec4_checkedinbyfamilymember" width="150" />
+          <cell name="crec4_checkedoutbyfamilymember" width="150" />
+          <cell name="crec4_approvedguardianid" width="150" />
+          <cell name="crec4_status" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="crec4_attendancerecord">
+          <attribute name="crec4_attendancerecordid" />
+          <attribute name="crec4_attendancerecord1" />
+          <attribute name="createdon" />
+          <order attribute="crec4_attendancerecord1" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="crec4_childid" />
+          <attribute name="crec4_familyid" />
+          <attribute name="crec4_checkintime" />
+          <attribute name="crec4_checkouttime" />
+          <attribute name="crec4_checkinmethod" />
+          <attribute name="crec4_checkoutmethod" />
+          <attribute name="crec4_checkedinbystaff" />
+          <attribute name="crec4_checkedoutbystaff" />
+          <attribute name="crec4_checkedinbyfamilymember" />
+          <attribute name="crec4_checkedoutbyfamilymember" />
+          <attribute name="crec4_approvedguardianid" />
+          <attribute name="crec4_status" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Attendance Records" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

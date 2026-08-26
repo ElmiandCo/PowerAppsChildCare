@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MobileOfflineProfile MobileOfflineProfileId="1f6f3478-7676-f111-ab0e-6045bd06e657" Name="autogenProfile-crec4_childcareunityapp_f8f8c" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <MobileOfflineProfileItems>
+    <MobileOfflineProfileItem MobileOfflineProfileItemId="256f3478-7676-f111-ab0e-6045bd06e657" Name="crec4_family">
+      <MobileOfflineProfileItemAssociations />
+      <MobileOfflineProfileItemId>{256F3478-7676-F111-AB0E-6045BD06E657}</MobileOfflineProfileItemId>
+      <RegardingObjectId>{1F6F3478-7676-F111-AB0E-6045BD06E657}</RegardingObjectId>
+      <Name>crec4_family</Name>
+      <RecordDistributionCriteria>1</RecordDistributionCriteria>
+      <RecordsOwnedByMe>0</RecordsOwnedByMe>
+      <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+      <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+      <SelectedColumns>[]</SelectedColumns>
+      <ProfileItemEntityFilter></ProfileItemEntityFilter>
+      <EntitySchemaName>crec4_Family</EntitySchemaName>
+    </MobileOfflineProfileItem>
+    <MobileOfflineProfileItem MobileOfflineProfileItemId="266f3478-7676-f111-ab0e-6045bd06e657" Name="crec4_child">
+      <MobileOfflineProfileItemAssociations />
+      <MobileOfflineProfileItemId>{266F3478-7676-F111-AB0E-6045BD06E657}</MobileOfflineProfileItemId>
+      <RegardingObjectId>{1F6F3478-7676-F111-AB0E-6045BD06E657}</RegardingObjectId>
+      <Name>crec4_child</Name>
+      <RecordDistributionCriteria>1</RecordDistributionCriteria>
+      <RecordsOwnedByMe>0</RecordsOwnedByMe>
+      <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+      <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+      <SelectedColumns>[]</SelectedColumns>
+      <ProfileItemEntityFilter></ProfileItemEntityFilter>
+      <EntitySchemaName>crec4_Child</EntitySchemaName>
+    </MobileOfflineProfileItem>
+    <MobileOfflineProfileItem MobileOfflineProfileItemId="296f3478-7676-f111-ab0e-6045bd06e657" Name="crec4_attendancerecord">
+      <MobileOfflineProfileItemAssociations />
+      <MobileOfflineProfileItemId>{296F3478-7676-F111-AB0E-6045BD06E657}</MobileOfflineProfileItemId>
+      <RegardingObjectId>{1F6F3478-7676-F111-AB0E-6045BD06E657}</RegardingObjectId>
+      <Name>crec4_attendancerecord</Name>
+      <RecordDistributionCriteria>1</RecordDistributionCriteria>
+      <RecordsOwnedByMe>0</RecordsOwnedByMe>
+      <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+      <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+      <SelectedColumns>[]</SelectedColumns>
+      <ProfileItemEntityFilter></ProfileItemEntityFilter>
+      <EntitySchemaName>crec4_AttendanceRecord</EntitySchemaName>
+    </MobileOfflineProfileItem>
+    <MobileOfflineProfileItem MobileOfflineProfileItemId="2b6f3478-7676-f111-ab0e-6045bd06e657" Name="crec4_approvedguardian">
+      <MobileOfflineProfileItemAssociations />
+      <MobileOfflineProfileItemId>{2B6F3478-7676-F111-AB0E-6045BD06E657}</MobileOfflineProfileItemId>
+      <RegardingObjectId>{1F6F3478-7676-F111-AB0E-6045BD06E657}</RegardingObjectId>
+      <Name>crec4_approvedguardian</Name>
+      <RecordDistributionCriteria>1</RecordDistributionCriteria>
+      <RecordsOwnedByMe>0</RecordsOwnedByMe>
+      <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+      <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+      <SelectedColumns>[]</SelectedColumns>
+      <ProfileItemEntityFilter></ProfileItemEntityFilter>
+      <EntitySchemaName>crec4_ApprovedGuardian</EntitySchemaName>
+    </MobileOfflineProfileItem>
+    <MobileOfflineProfileItem MobileOfflineProfileItemId="2c6f3478-7676-f111-ab0e-6045bd06e657" Name="crec4_staff">
+      <MobileOfflineProfileItemAssociations />
+      <MobileOfflineProfileItemId>{2C6F3478-7676-F111-AB0E-6045BD06E657}</MobileOfflineProfileItemId>
+      <RegardingObjectId>{1F6F3478-7676-F111-AB0E-6045BD06E657}</RegardingObjectId>
+      <Name>crec4_staff</Name>
+      <RecordDistributionCriteria>1</RecordDistributionCriteria>
+      <RecordsOwnedByMe>0</RecordsOwnedByMe>
+      <RecordsOwnedByMyTeam>0</RecordsOwnedByMyTeam>
+      <RecordsOwnedByMyBusinessUnit>0</RecordsOwnedByMyBusinessUnit>
+      <SelectedColumns>[]</SelectedColumns>
+      <ProfileItemEntityFilter></ProfileItemEntityFilter>
+      <EntitySchemaName>crec4_Staff</EntitySchemaName>
+    </MobileOfflineProfileItem>
+  </MobileOfflineProfileItems>
+  <MobileOfflineProfileId>{1f6f3478-7676-f111-ab0e-6045bd06e657}</MobileOfflineProfileId>
+  <Name>autogenProfile-crec4_childcareunityapp_f8f8c</Name>
+</MobileOfflineProfile>

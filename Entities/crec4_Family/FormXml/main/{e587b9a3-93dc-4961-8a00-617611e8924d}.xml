@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{e587b9a3-93dc-4961-8a00-617611e8924d}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{AD1BEA3E-8E7C-4E71-8711-6ACF5EFBC6CB}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{FE4B86AF-0E30-47ED-ACEE-79BC2F470B25}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{75BE3704-CAAB-4D45-8C6F-C1365A117879}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_familyname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crec4_FamilyName" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{8B4D37E5-200E-484F-B1B6-9609BE5B3663}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{93fceb05-e449-41bd-82f8-2fd4654f639b}">
+                        <labels>
+                          <label description="Family PIN" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_familypin" classid="{c6d124ca-7eda-4a60-aea9-7fb8d318b68f}" datafieldname="crec4_familypin" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{b10a8e0f-b023-4ace-a02c-8c8b46e10a85}">
+                        <labels>
+                          <label description="Primary Phone" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_primaryphone" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crec4_primaryphone" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ea634f05-30ca-4677-862a-1bb88509cf6a}">
+                        <labels>
+                          <label description="Email" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_email" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crec4_email" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{302531f1-f980-4dcf-a78e-7f267dbbcaed}">
+                        <labels>
+                          <label description="Address" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_address" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crec4_address" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{31ed87bc-4bcb-4e93-a344-706a2120abed}">
+                        <labels>
+                          <label description="Active" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_active" classid="{67fac785-cd58-4f9f-abb3-4b7ddc6ed5ed}" datafieldname="crec4_active" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

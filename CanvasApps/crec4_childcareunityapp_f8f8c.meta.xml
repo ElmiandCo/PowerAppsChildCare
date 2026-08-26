@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CanvasApp xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>crec4_childcareunityapp_f8f8c</Name>
+  <AppVersion>2026-07-03T00:25:37Z</AppVersion>
+  <Status>Ready</Status>
+  <CreatedByClientVersion>3.26063.9.0</CreatedByClientVersion>
+  <MinClientVersion>3.26063.9.0</MinClientVersion>
+  <Tags>{"primaryDeviceWidth":"1366","primaryDeviceHeight":"768","supportsPortrait":"true","supportsLandscape":"true","primaryFormFactor":"Tablet","showStatusBar":"false","publisherVersion":"3.26063.9","minimumRequiredApiVersion":"2.2.0","hasComponent":"false","hasUnlockedComponent":"false","isUnifiedRootApp":"false","m365CopilotSettingValue":"0"}</Tags>
+  <IsCdsUpgraded>0</IsCdsUpgraded>
+  <GalleryItemId xsi:nil="true"></GalleryItemId>
+  <BackgroundColor>RGBA(0,176,240,1)</BackgroundColor>
+  <DisplayName>ChildCareUnity_App</DisplayName>
+  <Description xsi:nil="true"></Description>
+  <CommitMessage xsi:nil="true"></CommitMessage>
+  <Publisher xsi:nil="true"></Publisher>
+  <AuthorizationReferences>[]</AuthorizationReferences>
+  <ConnectionReferences>{}</ConnectionReferences>
+  <DatabaseReferences>{"default.cds":{"databaseDetails":{"referenceType":"NotSpecified","environmentName":"default.cds","overrideValues":{"status":"NotSpecified","environmentVariableName":""}},"dataSources":{"Families":{"entitySetName":"crec4_families","logicalName":"crec4_family"},"Children":{"entitySetName":"crec4_children","logicalName":"crec4_child"},"Approved Guardians":{"entitySetName":"crec4_approvedguardians","logicalName":"crec4_approvedguardian"},"Staffs":{"entitySetName":"crec4_staffs","logicalName":"crec4_staff"},"Attendance Records":{"entitySetName":"crec4_attendancerecords","logicalName":"crec4_attendancerecord"}}}}</DatabaseReferences>
+  <AppComponents>[]</AppComponents>
+  <AppComponentDependencies>[]</AppComponentDependencies>
+  <CanConsumeAppPass>1</CanConsumeAppPass>
+  <CanvasAppType>0</CanvasAppType>
+  <BypassConsent>0</BypassConsent>
+  <AdminControlBypassConsent>0</AdminControlBypassConsent>
+  <EmbeddedApp xsi:nil="true"></EmbeddedApp>
+  <IntroducedVersion>1.0</IntroducedVersion>
+  <CdsDependencies>{"cdsdependencies":[{"logicalname":"crec4_family","componenttype":1},{"logicalname":"crec4_child","componenttype":1},{"logicalname":"crec4_approvedguardian","componenttype":1},{"logicalname":"crec4_staff","componenttype":1},{"logicalname":"crec4_attendancerecord","componenttype":1},{"dependencyid":"1f6f3478-7676-f111-ab0e-6045bd06e657","componenttype":161}]}</CdsDependencies>
+  <IsCustomizable>1</IsCustomizable>
+  <BackgroundImageUri>/CanvasApps/crec4_childcareunityapp_f8f8c_BackgroundImageUri</BackgroundImageUri>
+  <DocumentUri>/CanvasApps/crec4_childcareunityapp_f8f8c_DocumentUri.msapp</DocumentUri>
+  <AdditionalUris>
+    <AdditionalUri>/CanvasApps/crec4_childcareunityapp_f8f8c_AdditionalUris0_identity.json</AdditionalUri>
+  </AdditionalUris>
+</CanvasApp>

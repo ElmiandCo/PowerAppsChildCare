@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<savedqueries xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <savedquery>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>0</CanBeDeleted>
+    <isquickfindquery>0</isquickfindquery>
+    <isprivate>0</isprivate>
+    <isdefault>1</isdefault>
+    <savedqueryid>{221185ec-0dcd-4743-9e0e-bdd0d9178861}</savedqueryid>
+    <layoutxml>
+      <grid name="resultset" jump="crec4_familyname" select="1" icon="1" preview="1">
+        <row name="result" id="crec4_familyid">
+          <cell name="crec4_familyname" width="300" />
+          <cell name="crec4_familypin" width="150" />
+          <cell name="crec4_primaryphone" width="150" />
+          <cell name="crec4_email" width="150" />
+          <cell name="crec4_address" width="150" />
+          <cell name="crec4_active" width="150" />
+        </row>
+      </grid>
+    </layoutxml>
+    <querytype>0</querytype>
+    <fetchxml>
+      <fetch version="1.0" mapping="logical">
+        <entity name="crec4_family">
+          <attribute name="crec4_familyid" />
+          <attribute name="crec4_familyname" />
+          <attribute name="createdon" />
+          <order attribute="crec4_familyname" descending="false" />
+          <filter type="and">
+            <condition attribute="statecode" operator="eq" value="0" />
+          </filter>
+          <attribute name="crec4_familypin" />
+          <attribute name="crec4_primaryphone" />
+          <attribute name="crec4_email" />
+          <attribute name="crec4_address" />
+          <attribute name="crec4_active" />
+        </entity>
+      </fetch>
+    </fetchxml>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <LocalizedNames>
+      <LocalizedName description="Active Families" languagecode="1033" />
+    </LocalizedNames>
+  </savedquery>
+</savedqueries>

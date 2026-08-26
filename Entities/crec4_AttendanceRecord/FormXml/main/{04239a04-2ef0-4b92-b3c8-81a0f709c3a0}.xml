@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{04239a04-2ef0-4b92-b3c8-81a0f709c3a0}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{E2DA5A8A-1A29-4C7E-9897-F3A5D97E0741}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{FCBC0C62-FFB9-4456-9124-BC507F5F4A17}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{8340AB63-CD2F-4E57-94FC-E1F348185AA9}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_attendancerecord1" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crec4_AttendanceRecord1" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{32F66D3A-10E7-41C2-BA68-30B8982CD4B4}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ef039f41-bb4a-47f8-9ebd-2656e09fec17}">
+                        <labels>
+                          <label description="Child" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_childid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crec4_childid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{4034fdfe-7bb0-4308-baba-4a404992199e}">
+                        <labels>
+                          <label description="Family" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_familyid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crec4_familyid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{9fea6463-2da3-4d8d-b1bf-56babf0687d2}">
+                        <labels>
+                          <label description="Check In Time" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_checkintime" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="crec4_checkintime" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{def59d09-80d7-4d1d-a989-144a5502dc93}">
+                        <labels>
+                          <label description="Check Out Time" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_checkouttime" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="crec4_checkouttime" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{59ca3fb8-114b-4b61-86a6-19a1cf2a2db3}">
+                        <labels>
+                          <label description="Check In Method" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_checkinmethod" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crec4_checkinmethod" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c55441ca-eda0-4c56-a51c-d76846bf2877}">
+                        <labels>
+                          <label description="Check Out Method" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_checkoutmethod" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crec4_checkoutmethod" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6be8df1f-4471-4907-8e95-b2ec8c2dc17c}">
+                        <labels>
+                          <label description="Staff" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_checkedinbystaff" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crec4_checkedinbystaff" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7ce911d1-fb33-4dbd-a5cf-f3a072c3547f}">
+                        <labels>
+                          <label description="Staff1" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_checkedoutbystaff" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crec4_checkedoutbystaff" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{375231ac-0bcc-411c-aebb-89e4922b7f8c}">
+                        <labels>
+                          <label description="Checked In By Family Member" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_checkedinbyfamilymember" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crec4_checkedinbyfamilymember" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{ab564c1e-2843-45be-8ebe-800699dda7c1}">
+                        <labels>
+                          <label description="Checked Out By Family Member" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_checkedoutbyfamilymember" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crec4_checkedoutbyfamilymember" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{c7531201-8be5-4dc3-ba44-bd6e467841ed}">
+                        <labels>
+                          <label description="Approved Guardian" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_approvedguardianid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crec4_approvedguardianid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{6e780ddf-02a8-4464-85b5-955aee9fd044}">
+                        <labels>
+                          <label description="Status" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_status" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crec4_status" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>

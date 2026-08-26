@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<forms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <systemform>
+    <formid>{ad95c157-b168-4f08-b63c-3cb9aa419e97}</formid>
+    <IntroducedVersion>1.0</IntroducedVersion>
+    <FormPresentation>1</FormPresentation>
+    <FormActivationState>1</FormActivationState>
+    <form>
+      <tabs>
+        <tab verticallayout="true" id="{FD026E54-1BC6-416D-A0E6-29FB036116F4}" IsUserDefined="1">
+          <labels>
+            <label description="General" languagecode="1033" />
+          </labels>
+          <columns>
+            <column width="100%">
+              <sections>
+                <section showlabel="false" showbar="false" IsUserDefined="0" id="{2F391884-F44E-415F-BC33-7DA631167E57}">
+                  <labels>
+                    <label description="General" languagecode="1033" />
+                  </labels>
+                  <rows>
+                    <row>
+                      <cell id="{DB06DDFE-F3EC-41AF-8AFA-A1AC9E27CEA4}">
+                        <labels>
+                          <label description="" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_firstname" classid="{4273EDBD-AC1D-40d3-9FB2-095C621B552D}" datafieldname="crec4_FirstName" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{42654F72-C9B0-4297-BF75-AC9C6DCA8A4C}">
+                        <labels>
+                          <label description="Owner" languagecode="1033" />
+                        </labels>
+                        <control id="ownerid" classid="{270BD3DB-D9AF-4782-9025-509E298DEC0A}" datafieldname="ownerid" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{7e907c3c-19ec-4038-ba78-eb2c6e47a076}">
+                        <labels>
+                          <label description="Last Name" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_lastname" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crec4_lastname" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a36a7b83-f4d1-487e-9a9e-a2aa76abee08}">
+                        <labels>
+                          <label description="Date of Birth" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_dateofbirth" classid="{5b773807-9fb2-42db-97c3-7a91eff8adff}" datafieldname="crec4_dateofbirth" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{a9531a88-f174-40ca-b97a-10fcf48535f3}">
+                        <labels>
+                          <label description="Classroom" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_classroom" classid="{4273edbd-ac1d-40d3-9fb2-095c621b552d}" datafieldname="crec4_classroom" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{5fb24483-a3f0-42a2-871b-d8446bd7433b}">
+                        <labels>
+                          <label description="Current Status" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_currentstatus" classid="{3ef39988-22bb-4f0b-bbbe-64b5a3748aee}" datafieldname="crec4_currentstatus" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{fb85c4b8-6965-4b74-87b0-548781281008}">
+                        <labels>
+                          <label description="Attendance Record" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_currentattendancerecord" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crec4_currentattendancerecord" />
+                      </cell>
+                    </row>
+                    <row>
+                      <cell id="{3bbb93b3-9653-4b16-9529-d1d78284f48b}">
+                        <labels>
+                          <label description="Family" languagecode="1033" />
+                        </labels>
+                        <control id="crec4_familyid" classid="{270bd3db-d9af-4782-9025-509e298dec0a}" datafieldname="crec4_familyid" />
+                      </cell>
+                    </row>
+                  </rows>
+                </section>
+              </sections>
+            </column>
+          </columns>
+        </tab>
+      </tabs>
+    </form>
+    <IsCustomizable>1</IsCustomizable>
+    <CanBeDeleted>1</CanBeDeleted>
+    <LocalizedNames>
+      <LocalizedName description="Information" languagecode="1033" />
+    </LocalizedNames>
+    <Descriptions>
+      <Description description="A form for this entity." languagecode="1033" />
+    </Descriptions>
+  </systemform>
+</forms>
